@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jefferson Ski Resort - Tickets</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="wrap">
+    <h1 id="title"><a href="index.html">Jefferson Ski Resort</a></h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tickets.html">Get Tickets</a></li>
+                <li><a href="rentals.html">Rental Info</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="citations.html">Citations</a></li>
+                <a href="index.html"><img id="menuIcon" src="icon.png"></a>  
+                <a href="https://en.wikipedia.org/wiki/Mount_Jefferson_(Oregon)"><img id="wikilogo" src="wiki.png"></a>
+            </ul>
+        </nav>
+        
+        <div class="clock">
+            <h4>Local Time (PST)</h4>
+            <span class ="clock-time">12:00</span>
+            <span class ="clock-ampm">PM</span>
+        </div>
+
+        <div class="textbody">
+            <h1 id="ticketheader">Purchase Tickets</h1>
+            <div id="ticketform">
+            <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="POST">
+                <label>Ticket Type:</label>
+                <select name="age" id="ticketage">
+                    <option value="senior">Senior - $50</option>
+                    <option value="adult">Adult - $70</option>
+                    <option value="teen">Teen - $60</option>
+                    <option value="junior">Junior - $50</option>
+                    <option value="child">Child - $0</option>
+                </select>
+                <br>
+                <label>Ticket Quantity:</label>
+                <input type="number" name="quantity">
+                <br>
+                <label>Email:</label>
+                <input id="email" type="email" name="email">
+                <button id="purchasebutton">Purchase</button>
+            </form>
+            <h2 id="hours">Hours: 9am - 8pm<h2>
+            </div>
+            <div id="ticketinfo">
+                <h2><u>Ticket Pricing</u></h2>
+                <ul>
+                    <li><b>Senior 65+: </b>$50</li>
+                    <li><b>Adult 18-64: </b>$70</li>
+                    <li><b>Teen 15-17: </b>$60</li>
+                    <li><b>Junior 7-14: </b>$50</li>
+                    <li><b>Child 0-6: </b>FREE</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="project.js"></script>
+</body>
+</html>

@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#title {
+    background-color: #4b778d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#title a {
+    color:#f2f2f2;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#menu{
+    background-color: #28b5b5 ;
+    color: white;
+    width: 100%;
+    height: 75px;
+}
+
+#menu ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 75px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 15px;
+    display: block;
+}
+
+#menu ul li a:hover {
+    color: #f2f2f2;
+}
+
+#menuIcon {
+    width: 50px;
+    position:absolute;
+    top: 8px;
+    left: 415px;
+    display: block;
+    padding-left: 20px;
+    margin-left: -20px;
+}
+
+body {
+    background-image: url("background.jpg");
+    position: relative;
+    min-width: 1920px;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.textbody {
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 777px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: teal;
+}
+
+.textbody p {
+    text-indent: 20px;
+    font-size: 22px;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#home p {
+    text-indent: 20px;
+    font-size: 22px;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.clock {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    position:fixed;
+    right: 250px;
+    bottom: 870px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.clock-time,
+.clock-apm {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.clock-time {
+    font-size: 30px;
+}
+
+#wikilogo {
+    width: 40px;
+    position:absolute;
+    top: 12px;
+    right: 475px;
+    display: block;
+    padding-left: 10px;
+    margin-left: -10px;
+    min-width: 40px;
+}
+
+#rentLegend {
+    position: absolute;
+    left: 340px;
+    top: 300px;
+    padding: 10px;
+    background-color: #006666;
+    border: solid #262626;
+    border-radius: 10px;
+}
+
+#rentList {
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    list-style: none;
+    border-radius: 10px;
+}
+
+#packages {
+    position: absolute;
+    bottom: 130px;
+    left: 275px;
+    padding: 10px;
+}
+
+#packages ul {
+    list-style: none;
+}
+
+#packages ul li {
+    padding: 2px
+}
+
+#rentalpic {
+    width: 35%;
+    position: absolute;
+    right: 375px;
+    bottom: 165px;
+}
+
+#aboutbody p{
+    position: absolute;
+    text-align: left;
+    bottom: 550px;
+    left: 200px;
+    padding-right: 1000px;
+    line-height: 35px;
+}
+
+#map {
+    position: absolute;
+    width: 30%;
+    bottom: 50px;
+    left: 270px
+}
+
+#mapheader {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    color: white;
+    text-decoration: underline;
+}
+
+#downloadmap {
+    position: absolute;
+    top: 400px;
+    left: 580px;
+    color: white;
+    text-decoration: underline;
+}
+
+#infoheader {
+    position: absolute;
+    right: 400px;
+    top: 230px;
+    border: solid #262626;
+    background-color: #006666;
+    padding: 10px;
+    
+}
+
+#infoheader ul {
+    list-style: none;
+    padding: 10px;
+}
+
+#infoheader ul li {
+    padding: 5px;
+    text-align: left;
+}
+
+#lodgepic {
+    width: 25%;
+    position: absolute;
+    top: 490px;
+    right: 400px;
+}
+
+#ticketform {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    width:30%;
+    background-color: #006666;
+}
+
+#ticketform label{
+    padding: 1px;
+    left: 775px;
+    position: absolute;
+}
+
+#ticketform form {
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 40px;
+    width: 50px;
+
+}
+
+#ticketinfo {
+    position: absolute;
+    right: 250px;
+    top: 200px;
+    text-align: left;
+    background-color: #006666;
+    border-radius: 10px;
+    padding:15px;
+}
+
+#ticketinfo ul {
+    list-style: none;
+}
+
+#ticketinfo ul li {
+    padding: 5px;
+    text-align: left;
+    display: block;
+    word-spacing: 2px;
+}
+
+#ticketheader {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+#purchasebutton {
+    padding: 5px;
+    top: 370px;
+    right: 925px;
+    position: absolute;
+}
+
+#hours {
+    position: absolute;
+    bottom: 45%;
+    left: 45%
+}
+
+#scrollbox {
+    position: absolute;
+    left: 225px;
+    overflow: scroll;
+    width: 725px;
+    height: 150px;
+}
+
+.carousel-container {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    border: 30px double #006666;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    background-color: teal;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 800px;
+    height: 600px;
+}
+
+#previousButton {
+    position: absolute;
+    right: 50%;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#nextButton {
+    position: absolute;
+    left: 50%;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#indextitle {
+    color: white;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: teal;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#citationbody {
+    background-color: teal;
+    line-height: 40px;
+    font-size: 20px;
+    width: 25%;
+}
